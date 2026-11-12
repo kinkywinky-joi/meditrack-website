@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MediTrack — Track. Remind. Stay Healthy.</title>
+  <meta name="description" content="MediTrack is an affordable, multilingual smart medication companion that helps elderly patients take the right medicine at the right time.">
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <meta name="theme-color" content="#143642">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="MediTrack — Track. Remind. Stay Healthy.">
+  <meta property="og:description" content="An affordable, easy-to-use medication companion for older adults and the families who care for them.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="nav" id="nav">
+    <div class="container nav__inner">
+      <a href="#top" class="brand" aria-label="MediTrack home">
+        <!-- LOGO: place your file at images/logo.png (or change the path below) -->
+        <img src="images/logo.svg" alt="MediTrack logo" class="brand__logo" width="56" height="56">
+        <span class="brand__name">Medi<span>Track</span></span>
+      </a>
+      <nav class="nav__links" id="navLinks" aria-label="Primary">
+        <a href="#problem">Problem</a>
+        <a href="#features">Features</a>
+        <a href="#how">How it works</a>
+        <a href="#about">About</a>
+        <a href="#contact" class="btn btn--small">Get in touch</a>
+      </nav>
+      <button class="nav__toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false" aria-controls="navLinks">
+        <span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- HERO -->
+    <section class="hero">
+      <div class="hero__glow" aria-hidden="true"></div>
+      <div class="container hero__grid">
+        <div class="hero__copy">
+          <p class="eyebrow reveal">Smart medication management</p>
+          <h1 class="reveal" style="--d:.08s">Never miss a dose. <em>Stay in good health.</em></h1>
+          <p class="lead reveal" style="--d:.16s">
+            MediTrack is an affordable, easy-to-use medication companion, built especially for elderly patients and the families who care for them.
+          </p>
+          <div class="hero__cta reveal" style="--d:.24s">
+            <a href="#contact" class="btn">Join the early list</a>
+            <a href="#features" class="btn btn--ghost">Explore features</a>
+          </div>
+          <p class="hero__tag reveal" style="--d:.32s">Track <i></i> Remind <i></i> Stay Healthy</p>
+        </div>
+
+        <div class="hero__visual reveal" style="--d:.2s" aria-hidden="true">
+          <div class="phone">
+            <div class="phone__bar"><span class="dot"></span><strong>MediTrack</strong><span class="bell"></span></div>
+            <div class="card card--greet">
+              <p class="muted">Good morning</p>
+              <p><b>Stay on track</b> with your medications.</p>
+            </div>
+            <div class="card">
+              <div class="row"><span class="muted">Next medicine</span><span class="link">See all</span></div>
+              <div class="med">
+                <div class="pill"></div>
+                <div><b>Paracetamol</b><p class="muted">500 mg · After breakfast</p></div>
+              </div>
+              <div class="take">Take now</div>
+            </div>
+            <div class="card card--row">
+              <div><p class="muted">Today</p><b class="big">1/2</b> <span class="muted">taken</span></div>
+              <div class="progress"><span></span></div>
+            </div>
+          </div>
+          <div class="chip chip--a"><span class="chip__dot"></span>Time to take your medicine</div>
+          <div class="chip chip--b">Family notified</div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROBLEM -->
+    <section class="section section--tint" id="problem">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">The problem</p>
+          <h2>Missed doses quietly undermine treatment</h2>
+          <p class="lead">Forgetfulness, busy routines, several medicines and complicated timings make adherence hard, particularly for people living with long-term conditions.</p>
+        </div>
+
+        <div class="stat reveal">
+          <div class="stat__num">~50%</div>
+          <p>of patients with chronic diseases do not take their medicines as prescribed.<br><small>WHO, <i>Adherence to Long-Term Therapies: Evidence for Action</i>, 2003</small></p>
+        </div>
+
+        <div class="grid grid--3">
+          <article class="tile reveal">
+            <h3>Forgotten doses</h3>
+            <p>Phone alarms get ignored, and handwritten notes are hard to keep current.</p>
+          </article>
+          <article class="tile reveal" style="--d:.08s">
+            <h3>Confusing schedules</h3>
+            <p>Multiple medicines with different timings make the right routine difficult to follow.</p>
+          </article>
+          <article class="tile reveal" style="--d:.16s">
+            <h3>Heavy caregiver load</h3>
+            <p>Family members are left to remind, and are not always available.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- FEATURES -->
+    <section class="section" id="features">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">Features</p>
+          <h2>Simple by design, thoughtful where it counts</h2>
+        </div>
+        <div class="grid grid--3">
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M6 9a6 6 0 1 1 12 0c0 6 2 7 2 7H4s2-1 2-7Z"/><path d="M10 20a2 2 0 0 0 4 0"/></svg></div>
+            <h3>Medicine reminders</h3>
+            <p>Timely alerts matched to each dosage schedule and daily routine.</p>
+          </article>
+          <article class="feature reveal" style="--d:.06s">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="9" y="3" width="6" height="11" rx="3"/><path d="M5 11a7 7 0 0 0 14 0M12 18v3"/></svg></div>
+            <h3>Voice alerts</h3>
+            <p>Spoken prompts that are easy to notice and easy to understand.</p>
+          </article>
+          <article class="feature reveal" style="--d:.12s">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 2"/></svg></div>
+            <h3>Missed-dose notifications</h3>
+            <p>Know straight away when a dose has been skipped.</p>
+          </article>
+          <article class="feature reveal">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="9" cy="8" r="3"/><circle cx="17" cy="9" r="2.5"/><path d="M3 20c0-3.3 2.7-6 6-6s6 2.7 6 6M15 14.5c3 0 6 1.5 6 5.5"/></svg></div>
+            <h3>Family notifications</h3>
+            <p>Keep caregivers informed without constant check-in calls.</p>
+          </article>
+          <article class="feature reveal" style="--d:.06s">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M4 7h16v13H4zM8 7V4h8v3M12 11v6M9 14h6"/></svg></div>
+            <h3>Refill alerts</h3>
+            <p>A heads-up before medicines run out.</p>
+          </article>
+          <article class="feature reveal" style="--d:.12s">
+            <div class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg></div>
+            <h3>Multilingual &amp; affordable</h3>
+            <p>Designed for accessibility, across languages and budgets.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- HOW IT WORKS -->
+    <section class="section section--dark" id="how">
+      <div class="container">
+        <div class="section__head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2>A mobile app and a smart medicine box, working together</h2>
+        </div>
+        <ol class="steps">
+          <li class="reveal"><span>01</span><h3>Set the schedule</h3><p>Add medicines, doses and timings once.</p></li>
+          <li class="reveal" style="--d:.08s"><span>02</span><h3>Get reminded</h3><p>Alerts by app, voice and SMS at the right moment.</p></li>
+          <li class="reveal" style="--d:.16s"><span>03</span><h3>Confirm the dose</h3><p>One tap to log it, so progress stays visible.</p></li>
+          <li class="reveal" style="--d:.24s"><span>04</span><h3>Keep family in the loop</h3><p>Caregivers are notified if a dose is missed.</p></li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section class="section" id="about">
+      <div class="container about">
+        <div class="reveal">
+          <p class="eyebrow">About</p>
+          <h2>Built by pharmacy students who understand why it matters</h2>
+          <p>We are a student venture from DPGU SPR, Pimpri, Pune, developed under the Wadhwani Foundation venture programme. Our goal is to use pharmacy knowledge to help people remember their medicines, follow treatment properly and live healthier.</p>
+        </div>
+        <div class="proof reveal" style="--d:.1s">
+          <div><b>25</b><span>users engaged in prototype testing</span></div>
+          <div><b>18</b><span>liked or loved the prototype</span></div>
+          <div><b>40+</b><span>primary audience, with caregivers as a key secondary group</span></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CTA / CONTACT -->
+    <section class="section section--tint" id="contact">
+      <div class="container cta">
+        <div class="reveal">
+          <p class="eyebrow">Get in touch</p>
+          <h2>Be among the first to try MediTrack</h2>
+          <p class="lead">Leave your details and we will share updates as the product develops.</p>
+        </div>
+        <form class="form reveal" style="--d:.1s" id="contactForm" name="meditrack-contact" method="POST" action="/thank-you.html" data-netlify="true" netlify-honeypot="bot-field">
+          <input type="hidden" name="form-name" value="meditrack-contact">
+          <p class="hidden-field" aria-hidden="true">Do not fill this out: <input name="bot-field" tabindex="-1" autocomplete="off"></p>
+          <label>Name<input type="text" name="name" required autocomplete="name"></label>
+          <label>Email<input type="email" name="email" required autocomplete="email"></label>
+          <label>I am a
+            <select name="role">
+              <option>Patient</option>
+              <option>Caregiver or family member</option>
+              <option>Doctor or pharmacist</option>
+              <option>Other</option>
+            </select>
+          </label>
+          <button class="btn" type="submit">Request updates</button>
+          <p class="form__msg" id="formMsg" role="note">Your details will only be used to respond to your enquiry.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <div class="brand brand--footer">
+        <!-- LOGO: same file as the header -->
+        <img src="images/logo.svg" alt="MediTrack logo" class="brand__logo" width="48" height="48">
+        <span class="brand__name">Medi<span>Track</span></span>
+      </div>
+      <p>DPGU SPR, Pimpri, Pune &middot; Wadhwani Foundation venture programme</p>
+      <p class="small">&copy; <span id="year"></span> MediTrack. Not a substitute for professional medical advice.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

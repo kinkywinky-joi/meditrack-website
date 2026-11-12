@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 96 96" role="img" aria-label="MediTrack">
+  <rect width="96" height="96" rx="25" fill="#143642"/>
+  <circle cx="48" cy="48" r="29" fill="#dfe8dc"/>
+  <g transform="rotate(-42 48 48)">
+    <rect x="30" y="39" width="36" height="18" rx="9" fill="#7f9e7c"/>
+    <path d="M48 39v18" stroke="#fbfaf5" stroke-width="2.5"/>
+    <path d="M39 48h18" stroke="#fbfaf5" stroke-width="2.5" stroke-linecap="round"/>
+  </g>
+  <circle cx="72" cy="24" r="7" fill="#7f9e7c" stroke="#143642" stroke-width="3"/>
+</svg>

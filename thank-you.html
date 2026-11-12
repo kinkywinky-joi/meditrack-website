@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#143642">
+  <title>Thank you — MediTrack</title>
+  <link rel="icon" type="image/svg+xml" href="images/logo.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Manrope:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+  <style>
+    .thanks { min-height: 100vh; display: grid; place-items: center; padding: 32px 0; }
+    .thanks__card { max-width: 620px; text-align: center; background: #fff; border: 1px solid var(--line); border-radius: 24px; padding: clamp(28px, 6vw, 56px); box-shadow: var(--shadow); }
+    .thanks__mark { width: 64px; height: 64px; margin: 0 auto 24px; border-radius: 50%; display: grid; place-items: center; background: var(--sage-l); color: var(--teal); font-size: 2rem; }
+    .thanks p { color: var(--muted); margin: 18px 0 28px; }
+  </style>
+</head>
+<body>
+  <main class="thanks">
+    <section class="thanks__card">
+      <div class="thanks__mark" aria-hidden="true">✓</div>
+      <p class="eyebrow">MediTrack</p>
+      <h1>Thank you for reaching out.</h1>
+      <p>Your details have been submitted. The MediTrack team will be in touch when there is an update to share.</p>
+      <a class="btn" href="/">Back to MediTrack</a>
+    </section>
+  </main>
+</body>
+</html>
